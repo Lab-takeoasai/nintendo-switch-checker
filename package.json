@@ -1,0 +1,18 @@
+{
+  "name": "nintendo-switch-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:takeo-asai/nintendo-switch-checker.git",
+  "author": "Takeo Asai <spitson+github@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "chromy": "^0.3.6",
+    "opn": "^5.1.0",
+    "ts-loader": "^2.3.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
+  }
+}
